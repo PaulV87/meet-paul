@@ -1,0 +1,30 @@
+<style jsx>{`
+        .root {
+          min-height: 100vh;
+          max-width: 95vw;
+          display: flex;
+          flex-direction: column;
+          padding: 0 10px;
+          background-color: purple;  
+        },
+        .card {
+          height: 250px;
+          max-width: 40vw;
+          display: flex;
+          flex-direction: row;
+          padding: 10px; 
+        },
+        .media {
+          height: 100%;
+          width: 200px;
+          margin: 10px;
+          padding: 20px;
+        },
+        .title {
+          font-size: 3rem;
+        },
+        .stars {
+          color: gold;
+        }
+    
+      `}</style>
