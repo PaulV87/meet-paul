@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import HelloWorld from '../components/HelloWorld';
 
 import Learning from '../components/Learning';
 import CurrentSkills from '../components/CurrentSkills';
@@ -17,7 +16,6 @@ export default function Home() {
       <Navbar />
       <CurrentSkills />
       <Learning />
-      <HelloWorld />
 
       <footer>
         <p>Footer here</p>
